@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html en="ejs">
+  <head>
+    <meta charset="utf-8">
+    <title>elecvue</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script>
+        require('module').globalPaths.push('<%= htmlWebpackPlugin.options.nodeModules.replace(/\\/g, '\\\\') %>')
+      </script>
+  </head>
+  <body>
+    <div id="app">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript" src="src/renderer/assets/js/jquery.js"></script>
+  <script type="text/javascript" src="src/renderer/assets/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
